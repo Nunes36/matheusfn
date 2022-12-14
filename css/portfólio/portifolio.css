@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@200;400;600&display=swap');
+
+/*Cards*/
+
+.container {
+  height: 100vh;
+}
+.card {
+   display: flex;
+   flex-direction: row;
+   padding-top: 6rem;
+}
+
+.card_portfolio {
+    background: #131111;
+    width: 18rem;
+    margin: 3.5rem;
+    border: .5px solid rgb(0, 0, 0);
+    border-radius: 1em;
+    box-shadow: #131111 5px 5px 5px 5px;
+}
+
+.card_portfolio:hover {
+    box-shadow: #01fd0e 5px 5px 5px 5px;
+    transition: .5s;
+}
+
+.imagem {
+    width: 18rem;
+    height: 8rem;
+    margin-bottom: 1rem;
+    border-radius: 1em;
+ }
+
+ .card-titulo {
+    color: #beb9b9;
+    font-family: 'Gemunu', sans-serif;
+    font-weight: 700;
+    font-size: 1.5em;
+    text-align: center;
+    margin-bottom: 1rem;
+ }
+
+ .card-texto {
+    color: #beb9b9;
+    font-family: 'Gemunu', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    margin: 1rem 1rem;
+ }
+
+ .botao {
+    background-color: #182ef0;
+    border: none;
+    border-radius: 0.9rem;
+    width: 10em;
+    height: 3.5em;
+    margin-left: 4.5rem;
+    margin-bottom: 1rem;
+ }
+
+ .botao:hover {
+   background: rgb(1, 255, 1);
+   cursor: pointer;
+   transition: .5s;
+ }
+
+ .btn {
+   color: #beb9b9;
+    text-decoration: none;
+    font-family: 'Gemunu', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    font-style: oblique;
+ }
+
+ .btn:hover {
+   background: none;
+   color: #000000;
+ }
+
+
+ @media screen and (max-width: 1024px) {
+   .container {
+      height: 180vh;
+   }
+   .card {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      margin-right: .9rem;
+   }
+}
+
+@media screen and (max-width: 600px) {
+   .container {
+      height: 205vh;
+   }
+}

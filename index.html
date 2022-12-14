@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Theus dev</title>
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@200;400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+<link rel="stylesheet" href="css/styles.css">
+<link rel="stylesheet" href="./css/portfólio/portifolio.css">
+<link rel="stylesheet" href="./css/sobre/sobre.css">
+<link rel="stylesheet" href="./css/habilidades/habilidades.css">
+<link rel="stylesheet" href="./css/rodapé/rodapé.css">
+<script src="https://kit.fontawesome.com/4aea458b37.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <!-- Home -->
+  <header class="nav">
+        <nav class="navegacao" id="nav">
+            <ul class="navegacao_lista">
+                <li class="navegacao_lista-link"><a href="#home" id="link">Home</a></li>
+                <li class="navegacao_lista-link"><a href="#portfolio" id="link">Portfólio</a></li>
+                <li class="navegacao_lista-link"><a href="#sobre" id="link">Sobre mim</a></li>
+                <li class="navegacao_lista-link"><a href="#habilidades" id="link">Habilidades</a></li>
+            </ul>
+        </nav>
+   </header>     
+   <section class="header-container" id="home">   
+            <h1 class="nome__sobrenome">Matheus Ferreira</h1>
+            <h2 class="funcao__trabalho">Desenvolvedor Front-End</h2>
+        <div class="social-media">
+            <a href="https://www.instagram.com/matheusferreiranunes22/" class="rede">Instagram</a>
+            <a href="https://www.linkedin.com/in/matheus-ferreira-b1785219a/" class="rede">Linkedin</a>
+        </div>
+    </section>    
+  <!-- Projetos-->
+
+  <section class="container" id="portfolio">
+    <h3 class="titulo">Portfólio</h3>
+    <div class="card">
+        <div class="card_portfolio">
+            <img src="./img/ComboAlura.png" class="imagem" alt="Projeto">
+            <div class="card-body">
+                <h3 class="card-titulo">Combo +</h3>
+                <p class="card-texto">Landing Page do Combo alura, para conhecer os beneficíos, site de apresentação.</p>
+                <button class="botao"><a href="https://nunes36.github.io/exemploalura/" class="btn btn-primeiro">Visualizar Projeto</a></button>
+            </div>
+
+        </div>
+        <div class="card_portfolio">
+            <img src="./img/projetoAluraBooks.png" class="imagem" alt="Projeto">
+            <div class="card-body">
+                <h3 class="card-titulo">Alura Books</h3>
+                <p class="card-texto">Página feita para ebooks e livros da Alura, site de Apresentação.</p>
+                <button class="botao"><a href="https://nunes36.github.io/Alurabooks/" class="btn btn-primeiro">Visualizar Projeto</a></button>
+            </div>
+        </div>
+
+        <div class="card_portfolio">
+            <img src="./img/em breve.png" class="imagem" alt="Projeto">
+            <div class="card-body">
+                <h3 class="card-titulo">Em breve</h3>
+                <p class="card-texto">Aqui está o espaço para futuros projetos. </p>
+                <button class="botao"><a href="#" class="btn btn-primeiro">Visualizar Projeto</a></button>
+            </div>
+    </div>
+</div>
+
+</section>       
+
+<section class="sobre" id="sobre">
+    <h4 class="titulo">Sobre mim</h4>
+<div class="icone" data-anime="left">
+    <div class="container_sobre">
+        <p class="sobre_mim">Nascido em São Paulo - SP, minha trajetória 
+            no mundo da computação começou aos 11 anos de idade
+            onde estava matriculado no meu 1º curso
+            de informática. Onde eu cursei 3 anos, e aprendi 
+            diversas ferramentas no windows, mesmo sendo um curso básico
+            foi onde comecei a ter meus primeiros 
+            passos.</br></br>
+                Mas foi em 2022 onde me apresentaram o mundo da lógica de programação. 
+            Atualmente já dominei as linguagens de html e css, e agora estou estudando as linguagens de javascript e react.js,
+            e estou me encaminhando para fazer minha faculdade de engenharia de software.
+            </p>
+    </div>
+    <div class="img">
+        <img src="./img/icone-computador.png" alt="imagem computador" class="container_img">
+    </div>
+</div>
+</section>
+
+<section class="habilidades" id="habilidades">
+    <h5 class="titulo">Habilidades</h5>  
+<div class="habilidades_skills">
+    <div class="container_habilidades-icones">
+            <i class="fa-brands fa-html5"></i>
+    </div>
+    <div class="container_habilidades-icones">
+        <i class="fa-brands fa-css3-alt"></i>
+    </div>
+    <div class="container_habilidades-icones">
+        <i class="fa-brands fa-square-js"></i>     
+    </div>
+    
+    <div class="descricao">
+        <span class="texto_descricao">*Passe o mouse para ler a descrição</span>
+    </div>
+</div>
+</section>
+      <!-- rodapé -->
+
+    <footer class="footer">
+            <a href="https://www.facebook.com/MFARTESDIGITAIS" class="footer__link"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://github.com/Nunes36" class="footer__link"><i class="fa-brands fa-github"></i></a>
+            <a href=" http://api.whatsapp.com/send?1=pt_BR&phone=5511969312954" class="footer__link"><i class="fa-brands fa-whatsapp"></i></a>
+        </footer>
+    <script src="/script.js"></script>
+    <script src="/scroll.js"></script>    
+     
+</body>
+</html>

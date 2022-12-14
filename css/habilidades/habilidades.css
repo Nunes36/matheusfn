@@ -1,0 +1,64 @@
+.habilidades {
+    height: 100vh;
+}
+
+.habilidades_skills {
+    display: flex; 
+    flex-direction: row;
+    align-items: center;
+    margin: 2rem;
+    padding: 6rem;
+    border: #000000 solid 1px;
+    background: #131111;
+    box-shadow: #000000 10px 10px;
+}
+.container_habilidades-icones {
+    margin: 2rem 3rem;
+}
+
+.fa-html5, .fa-css3-alt, .fa-square-js {
+    font-size: 100px;
+}
+
+.fa-html5:hover {
+    color: orange;
+    transition: 1s;
+}
+
+.fa-css3-alt:hover {
+    color: blue;
+    transition: 1s;
+}
+
+.fa-square-js:hover {
+    color: yellow;
+    transition: 1s;
+}
+
+.descricao {
+   width: 50%;
+}
+
+.texto_descricao {
+    color: #ffffff;
+    font-family: 'Gemunu', sans-serif;
+}
+
+@media screen and (max-width: 1024px) {
+    .habilidades {
+        height: 100vh;
+    }
+    
+    .habilidades_skills {
+        width: 60vw;
+    }
+    .descricao {
+    display: none;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .habilidades {
+        display: none;
+    }
+}
